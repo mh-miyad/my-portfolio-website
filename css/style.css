@@ -75,9 +75,121 @@ section{
 
 .home-img .img-box img{
     width: 100%;
+    vertical-align: top;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.about-section >h2{
+    color: rgb(36, 34, 34);
+    font-size: 40px;
+    margin: 10px;
+}
+.about-section .about-img img{
+    margin-top: -600px;
+    background-color: var(--white-alpha-40);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about-section .about-img {
+    min-width: 360px;
+   
+  
+ 
+    margin: auto;
+}
+
+
+.container-about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+   
+ 
+}
+
+.education-section{
+    width: 80%;
+    margin-left: 100px;
+    
+   
+}
+.font-45{
+    font-size: 45px;
+    margin: 20px;
+}
+.skill-section{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+   
+}
+.skill-btn{
+   background: var(--white-alpha-25);
+   align-items: center;
+   padding: 5px 20px;
+   margin: 10px;
+   font-weight: 700;
+   text-align: center;
+   line-height:20px;
+   color: #000;
+   border-radius: 10%;
+   -webkit-border-radius: 10%;
+   -moz-border-radius: 10%;
+   -ms-border-radius: 10%;
+   -o-border-radius: 10%;
+}
+.education-qualification {
+    border-left: 4px solid rgb(248, 127, 127);
+    padding: 20px;
+   
+}
+
+.education-qualification .edu-part-1{
+    border-left: 4px solid rgb(248, 127, 127);
+    border-right: 4px solid rgb(75, 243, 255);
+    padding: 20px;
+   box-shadow: 12px 12px 23px gray;
+   border-radius: 20px;
+   padding: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+.education-qualification .edu-part-2{
+    z-index: 999;
+    margin-top: 70px;
+    border-left: 4px solid rgb(107, 226, 77);
+    border-right: 4px solid rgb(219, 75, 255);
+    padding: 20px;
+   box-shadow: 12px 12px 23px gray;
+   border-radius: 20px;
+   padding: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+.edu-titlle{
+    color: rgba(240, 93, 93, 0.932);
+    font-weight: 500;
+}
+.edu-time{
+    color: gray;
+    font-size: 28px;
+}
+.edu-degree{
+    color: rgb(20, 18, 18);
+    font-weight: 600;
+    font-size: 30px;
+}
+.edu-description{
+    font-size:18px;
 }
