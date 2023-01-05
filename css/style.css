@@ -1,0 +1,83 @@
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+section{
+    background-color: var(--white-alpha-25);
+    border: 1px solid  var(--white-alpha-40);
+    border-radius: 30px;
+    min-height: 90vh;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    backdrop-filter: var(--backgdrop-filter);
+}
+
+.main{
+ 
+    max-width: 1200px;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    
+    padding: 0 40px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ==============hrmo section
+ */
+
+.home-sec{
+    display: flex;
+    padding: 120px 0 ;
+}
+
+.home-text p { 
+    font-size: 18px;
+}
+.home-text h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.home-text h2 { 
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 0 30px;
+}
+.home-text .btn{
+    margin: 0 20px 20px 0;
+}
+ .home-text,
+ .home-img{
+    width: 50% ;
+ 
+   
+ }
+
+ .home-img .img-box {
+    max-width: 360px;
+    background-color: var(--white-alpha-25);
+    border-radius: 50%;
+    border: 8px  solid var(--white-alpha-25);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: auto;
+}
+
+.home-img .img-box img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
