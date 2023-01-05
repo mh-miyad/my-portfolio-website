@@ -114,9 +114,14 @@ section{
  
 }
 
+.btn-download{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
 .education-section{
     width: 80%;
-    margin-left: 100px;
+ margin-right: 20px;
     
    
 }
@@ -129,21 +134,7 @@ section{
     grid-template-columns: repeat(5 , 1fr);
    
 }
-.skill-btn{
-   background: var(--white-alpha-25);
-   align-items: center;
-   padding: 5px 20px;
-   margin: 10px;
-   font-weight: 700;
-   text-align: center;
-   line-height:20px;
-   color: #000;
-   border-radius: 10%;
-   -webkit-border-radius: 10%;
-   -moz-border-radius: 10%;
-   -ms-border-radius: 10%;
-   -o-border-radius: 10%;
-}
+
 .education-qualification {
     border-left: 4px solid rgb(248, 127, 127);
     padding: 20px;
