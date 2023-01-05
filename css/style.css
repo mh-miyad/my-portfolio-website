@@ -184,3 +184,25 @@ section{
 .edu-description{
     font-size:18px;
 }
+
+.portfolio-img{
+    margin:50px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.portfolio-img img{
+    border-radius:20px ;
+    transition: all ease 0.4s ;
+    -webkit-transition: all ease 0.4s ;
+    -moz-transition: all ease 0.4s ;
+    -ms-transition: all ease 0.4s ;
+    -o-transition: all ease 0.4s ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+.portfolio-img img:hover{
+    scale:1.1;
+}
